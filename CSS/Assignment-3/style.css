@@ -1,0 +1,116 @@
+#container{
+    margin-top: px;
+}
+#div1{
+    height: 550px;
+    width: 1000px;
+    padding-top: 0%;
+    display: flex;
+
+}
+#div2{
+    height: 550px;
+    width: 1000px;
+    display: flex;
+}
+.one{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    border: solid;
+    border-radius: 20px;
+    margin: 10px;
+}
+.one:hover{
+    height: 510px;
+    width: 310px;
+    background-color: aqua;
+}
+img:hover{
+    height: 250px;
+    width: 320px;
+}
+img{
+    height: 200px;
+    width: 270px;
+}
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: white;
+    color: black;
+}
+p{
+    font-size: larger;
+    font-weight: 800;
+}
+.but{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+}
+#qam{
+    display: inline;
+    padding: 50px;
+}
+button{
+    border-radius: 5px;
+    background-color: rgb(218, 70, 70);
+    color: white;
+}
+img:hover{
+    height: 250;
+    width: 320;
+}
+#small{
+    font-weight: 100;
+    color: rgb(154, 141, 141);
+}
+ h6{
+    margin: 21px;
+} 
+#sp{
+    margin-left: 80px;
+    letter-spacing: 10px;
+}
+.mar{
+    text-align: center;
+    line-height: 5px;
+    word-spacing: 5px;
+}
+#und{
+    text-decoration: line-through;
+}
+.cont{
+    text-align: center;
+    font-size: medium;
+    line-height: 0%;
+}
+.hed{
+    text-align: center;
+}
+.mus{
+    line-height: 10px;
+    padding-right: 50px;
+}
+#equl{
+    padding-right: 150px;
+}
+#pp{
+    padding-right: 120px;
+    font-size: smaller;
+}
+#price{
+    border: solid;
+    height:150px;
+    width: 150px;
+    line-height: 15px;
+    border-radius: solid ;
+    border-radius: 50%;
+}
+#price:hover{
+    background-color: rgb(59, 59, 137);
+    color: white;
+}
