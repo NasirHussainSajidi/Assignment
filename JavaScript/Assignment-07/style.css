@@ -1,0 +1,9 @@
+#img1{
+    margin-left: 350px;
+    margin-top: 160px;
+}
+#img1:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
