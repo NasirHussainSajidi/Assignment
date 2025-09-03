@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer_container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 400px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: auto;
+
+        }
+        #javaDiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* flex-direction: column; */
+            height: 400px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        /* #uplode-picture{
+            
+            border-radius: 50%;
+            border: 2px solid black;
+            height: 170px;
+            width: 170px;
+        } */
+    </style>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div id="outer_container">
+        <input id="add-name" type="text" placeholder="Enter Name"><br><br>
+        <input id="enter-discription" type="text" placeholder="Enter discription"><br><br>
+        <input id="uplode-picture" type="file"> <br> <br>
+        <button onclick="showBlogCard()">Submit</button>
+    </div>
+        <div id="blog-card">
+            
+        </div>
+        
+</body>
+</html>

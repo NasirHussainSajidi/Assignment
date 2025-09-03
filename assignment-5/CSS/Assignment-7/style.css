@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 100vh;
+    background-color: rgb(150, 150, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 299px;
+    width: 299px;
+    border-radius: 10px;
+    background-color: rgb(132, 135, 96);
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.innerdiv:hover{
+    /* transform: rotate(360deg); */
+    cursor: pointer;
+    transform: perspective(250px) translateZ(50px);
+    /* transform: translatez(50px); */
+    
+}
